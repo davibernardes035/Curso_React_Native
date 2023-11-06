@@ -1,16 +1,37 @@
 import * as React from 'react';
-import {Button, Container, Title, TextButton} from './styles';
+import {
+  Button,
+  Container,
+  ContainerButton,
+  ContainerText,
+  ContainerTitle,
+  Line,
+  SubTitle,
+  Title,
+  TextButton,
+} from './styles';
+import More from '../../assets/More.svg';
 
 const HomePage = ({navigation}) => {
   return (
     <Container>
-      <Title>Bem vindo a outra tela</Title>
-      <Button
-        onPress={() => {
-          navigation.navigate('List');
-        }}>
-        <TextButton>Clique aqui</TextButton>
-      </Button>
+      <ContainerTitle>
+        <Line />
+        <ContainerText>
+          <Title>Davi</Title>
+          <SubTitle>List</SubTitle>
+        </ContainerText>
+        <Line />
+      </ContainerTitle>
+      <ContainerButton>
+        <Button
+          onPress={() => {
+            navigation.navigate('List');
+          }}>
+          <More />
+        </Button>
+        <TextButton>Adicionar à lista</TextButton>
+      </ContainerButton>
     </Container>
   );
 };
