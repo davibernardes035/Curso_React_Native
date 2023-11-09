@@ -5,11 +5,11 @@
         "color": "#24A6D9",
         "tasks": [
             {
-                "titleTask": "Curso de React Native",
+                "titleTask": "Davi",
                 "lida": true
             },
             {
-                "titleTask": "Gustavo",
+                "titleTask": "Davi",
                 "lida": false
             }
         ]
@@ -20,7 +20,7 @@
         "color": "#9671D7",
         "tasks": [
             {
-                "titleTask": "Gustavo",
+                "titleTask": "Davi",
                 "lida": true
             }
         ]
